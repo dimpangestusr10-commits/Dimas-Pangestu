@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dimas Pangestu | Administrative Professional</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #eef2f7;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    background: #111;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00c6ff;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+.highlight {
+    color: #00c6ff;
+    font-weight: 600;
+}
+
+.btn-group {
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 6px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+}
+
+.btn-outline {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: #243b55;
+}
+
+/* SECTION */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.section {
+    margin-bottom: 60px;
+    animation: fadeUp 1s ease;
+}
+
+.section h2 {
+    margin-bottom: 25px;
+    color: #243b55;
+    position: relative;
+}
+
+.section h2::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #0072ff;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* SKILLS */
+.skill {
+    margin-bottom: 18px;
+}
+
+.skill-name {
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.skill-bar {
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 10px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+/* ANIMATION */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media(max-width:768px){
+    header h1 {
+        font-size: 26px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#about">Tentang</a>
+    <a href="#experience">Pengalaman</a>
+    <a href="#skills">Keahlian</a>
+    <a href="#contact">Kontak</a>
+</nav>
+
+<header>
+    <img src="dimas.jpg" alt="Dimas Pangestu" class="profile-img">
+    <h1>Dimas Pangestu</h1>
+    <p>Sarjana Manajemen | <span class="highlight">Administrative & Data Specialist</span></p>
+
+    <div class="btn-group">
+        <a href="CV-Dimas-Pangestu.pdf" class="btn btn-primary" download>Download CV</a>
+        <a href="https://www.linkedin.com/in/dimas-pangestu-2210d2e2001/" target="_blank" class="btn btn-outline">LinkedIn</a>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="section" id="about">
+        <h2>Professional Summary</h2>
+        <div class="card">
+            Lulusan Sarjana Manajemen dengan ketertarikan kuat di bidang administrasi dan pengolahan data. 
+            Terbiasa bekerja sistematis, detail-oriented, dan memiliki kemampuan analisis menggunakan Microsoft Office 
+            serta JASP. Siap memberikan kontribusi maksimal dalam mendukung operasional dan efisiensi perusahaan.
+        </div>
+    </div>
+
+    <div class="section" id="experience">
+        <h2>Pengalaman Kerja</h2>
+        <div class="card">
+            <strong>Staff Administrasi</strong><br>
+            2023 - 2024<br><br>
+            ✔ Mengelola dan memperbarui database perusahaan secara akurat<br>
+            ✔ Menyusun laporan keuangan & operasional menggunakan Excel<br>
+            ✔ Mengarsipkan dokumen secara sistematis dan rapi<br>
+            ✔ Mendukung kegiatan administrasi harian perusahaan
+        </div>
+    </div>
+
+    <div class="section" id="skills">
+        <h2>Keahlian Profesional</h2>
+
+        <div class="skill">
+            <div class="skill-name">Microsoft Office (Excel, Word, PowerPoint)</div>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 90%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">Pengolahan Data & Statistik (JASP)</div>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 85%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">Administrasi & Manajemen Dokumen</div>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 88%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">Data Entry & Reporting</div>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 92%;"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Kontak</h2>
+        <div class="card">
+            📞 0822-8712-8702 <br>
+            📧 dimpangestusr10@gmail.com
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Dimas Pangestu | Administrative Professional
+</footer>
+
+</body>
+</html>
